@@ -1,0 +1,105 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: #000;
+  color: #fff;
+}
+/* Header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #141414;
+}
+/* logo */
+.logo {
+  height: 20px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+/* sign-in */
+  .btn-signin {
+  color: #fff;
+  background-color: #e50914;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+/* Hero Section */
+.hero {
+  position: relative;
+  text-align: center;
+  padding: 100px 20px;
+}
+.hero .content {
+  position: relative;
+  z-index: 2;
+}
+.hero h1 {
+  font-size: 15px;
+  margin-bottom:20px;
+}
+.hero p {
+  margin-bottom: 20px;
+  font-size: 15px;
+}
+/* email-form*/
+.email-form {
+  display: flex;
+  justify-content: center;
+}
+.email-form input {
+  padding: 10px;
+  font-size: 1rem;
+  width: 50%;
+  max-width: 400px;
+  border: none;
+}
+.email-form .btn-primary {
+  background-color: #e50914;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #141414;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 50px
+
+}
+.footer ul{
+  padding: 0;
+  width: 400px;
+  margin: 0 auto;
+}
+.footer ul li{  
+  list-style: none;
+  font-family: arial;
+  font-size: 15px;
+}
+.footer ul li a{ 
+  text-decoration: none;
+  float: left;
+  display: block;
+  padding: 10px 10px;
+  color: white;
+}
+
